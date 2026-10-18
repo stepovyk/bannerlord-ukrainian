@@ -18,7 +18,7 @@
 
 ## Встановлення
 
-1. Завантажте архів `UkrainianLocalization-v1.0.0.zip` з [Releases](../../releases/latest) або з Nexus Mods.
+1. Завантажте архів `UkrainianLocalization-v1.0.0.zip` з [Releases](../../releases/latest) або з [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/14111).
 2. Розпакуйте його в теку гри, наприклад `C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\`. Теки з архіву мають опинитися в `Modules`.
    Через Vortex: «Install from file» і виберіть архів.
 3. У лаунчері відкрийте «Singleplayer» → «Mods» і ввімкніть **«Українська локалізація»**. Для мережевої гри так само ввімкніть **«Українська локалізація (мережева гра)»** на вкладці «Multiplayer».
@@ -41,7 +41,7 @@
 
 Переклад безкоштовний і таким лишиться. Якщо він вам знадобився, підтримати роботу можна:
 - [банкою Monobank](https://send.monobank.ua/jar/8aeC9dGFrn);
-- поставивши моду «Endorse» на Nexus Mods.
+- поставивши моду «Endorse» на [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/14111).
 
 ## Помилки й побажання
 
