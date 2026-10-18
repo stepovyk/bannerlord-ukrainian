@@ -41,6 +41,7 @@
 
 Переклад безкоштовний і таким лишиться. Якщо він вам знадобився, підтримати роботу можна:
 - [банкою Monobank](https://send.monobank.ua/jar/8aeC9dGFrn);
+- [конвертом Приват24](https://www.privat24.ua/send/kkyqm);
 - поставивши моду «Endorse» на [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/14111).
 
 ## Помилки й побажання
@@ -100,6 +101,6 @@ The mod ships its own Ukrainian grammar processor. It declines names by case (to
 
 **Build from source:** `dotnet build src/UkrainianLocalization -c Release && python3 tools/build.py --zip`. This needs .NET SDK 8 and Python 3.9+. The game reference assemblies come from NuGet, so the game does not need to be installed.
 
-Support the author: [Monobank jar](https://send.monobank.ua/jar/8aeC9dGFrn).
+Support the author: [Monobank jar](https://send.monobank.ua/jar/8aeC9dGFrn) · [Privat24 envelope](https://www.privat24.ua/send/kkyqm).
 
 The project's own work (translation, grammar processor, tools) is MIT-licensed. Bannerlord and its original texts belong to TaleWorlds Entertainment. This is an unofficial fan project.
