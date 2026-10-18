@@ -1,0 +1,57 @@
+{"id": "1B57e3WC", "uk": "{HERO} нехтує волею ради {FACTION}{.g}"}
+{"id": "3aYSoETE", "uk": "{MOTHER.LINK} народила здорове немовля."}
+{"id": "6q9sb18u", "uk": "Убито {HERO_2.LINK}{.a}."}
+{"id": "7SHqWNzE", "uk": "Спільну територію «{COMMON_AREA}» у {SETTLEMENT}{.l} очищено від головорізів."}
+{"id": "7tx9sch3", "uk": "Виявлено лігво"}
+{"id": "8Klpa7Xa", "uk": "{INSULTER.LINK} {?INSULTER.GENDER}поклялася{?}поклявся{\\?} помститися {INSULTEE.LINK}{.d}."}
+{"id": "8wlvxzuP", "uk": "{HERO_1.LINK} {?HERO_1.GENDER}познайомилася{?}познайомився{\\?} з {HERO_2.LINK}{.i}."}
+{"id": "a0qduLNq", "uk": "{SETTLEMENT} тепер у безпеці."}
+{"id": "aheVbtmm", "uk": "{ITEM} у {FACTION}{.g}"}
+{"id": "aowJMil0", "uk": "{KINGDOM} припини{past(KINGDOM)} існування."}
+{"id": "AQK4ADS5", "uk": "{HERO_1.LINK} {?HERO_1.GENDER}убила{?}убив{\\?} {HERO_2.LINK}{.a}"}
+{"id": "AxMrFoea", "uk": "Війська під проводом {LORD.LINK}{.g} з {FACTION_NAME}{.g} взяли в облогу {TOWN_NAME}{.a}!"}
+{"id": "bNAxWneP", "uk": "{INSULTER.LINK} стверджує, що {INSULTEE.LINK} здирає гроші з майстерень і крамниць."}
+{"id": "bNDUtygL", "uk": "{INSULTER.LINK} стверджує, що {INSULTEE.LINK} притримує товари, щоб роздути ціни."}
+{"id": "Bovy7D7s", "uk": "{MOTHER.LINK} народила, але дитина з’явилася на світ мертвою."}
+{"id": "bZvmjYPE", "uk": "{PARTY} захищає {SETTLEMENT}{.a}."}
+{"id": "Cae69FRp", "uk": "{SETTLEMENT}{.a} захищає {PARTY}."}
+{"id": "cOnCiZeH", "uk": "{HERO1} напа{past(HERO1)} на спільну територію {HERO2}{.g} у {SETTLEMENT}{.l}{ADDITIONAL_INFO}"}
+{"id": "dfAE3liA", "uk": "Клан {CLAN_NAME} приєднався до {FACTION}{.g}."}
+{"id": "dmqy8OyY", "uk": "{INSULTER.LINK} стверджує, що {INSULTEE.LINK} веде справи нечесно."}
+{"id": "dzJOruIi", "uk": "Спільна територія «{COMMON_AREA}» у {SETTLEMENT}{.l} перейшла до {HERO.LINK}{.g}."}
+{"id": "EHFibjkM", "uk": "Армія під проводом {LORD.LINK}{.g} з {FACTION_NAME}{.g} взяла в облогу {TOWN_NAME}{.a}!"}
+{"id": "ELFgdGJZ", "uk": "{MOTHER.LINK} тепер вагітна."}
+{"id": "eMRMptST", "uk": "{MOTHER.LINK} народила дитину."}
+{"id": "ExbVzTZA", "uk": "{CLAN} найня{past(CLAN)}ся воювати на боці {KINGDOM}{.g}."}
+{"id": "F3MPgmhR", "uk": "{CLAIMANT.LINK} заявляє, що {SETTLEMENT_NAME} має належати {CLAIMANT_CLAN}{.d}, а не {CURRENT_OWNER_CLAN}{.d}."}
+{"id": "FZdiWaBs", "uk": "Спільну територію {HERO}{.g} захоплено."}
+{"id": "h5rkbVu3", "uk": "Новий власник {SETTLEMENT}{.g} — {LORD.LINK}."}
+{"id": "h78oPYTs", "uk": "{INSULTER.LINK} стверджує, що {INSULTEE.LINK} — {?INSULTEE.GENDER}єретичка{?}єретик{\\?}."}
+{"id": "hbWhfoWH", "uk": "{LORD.LINK} з {FACTION_NAME}{.g} грабує {SETTLEMENT}{.a}"}
+{"id": "hJFCi1zu", "uk": "{FACTION1} і {FACTION2} уклали мир."}
+{"id": "hopvV6Ch", "uk": "{RULER_NAME} з {FACTION1_NAME}{.g} оголошує війну {FACTION2_NAME}{.d}."}
+{"id": "hP57Caab", "uk": "{VICTOR_PARTY} з {VICTOR_FACTION}{.g} перемагає {DEFEATED_PARTY}{.a} з {DEFEATED_FACTION}{.g}."}
+{"id": "Jo3Lux3w", "uk": "{HERO_1.LINK} несе відповідальність за смерть {HERO_2.LINK}{.g}"}
+{"id": "jZcV4gI7", "uk": "{INSULTER.LINK} {?INSULTER.GENDER}заявила{?}заявив{\\?}, що через боягузтво {INSULTEE.LINK}{.g} військо зазнало невдачі в бою."}
+{"id": "KbakhGqB", "uk": "{HERO_1.LINK} {?HERO_1.GENDER}розбила{?}розбив{\\?} загін {HERO_2.LINK}{.g}."}
+{"id": "kMwv4QJK", "uk": "{INSULTER.LINK} і {INSULTEE.LINK} посварилися через залицяння."}
+{"id": "kqwNCCbZ", "uk": "Армія під проводом {LORD.LINK}{.g} з {FACTION_NAME}{.g} взяла в облогу {TOWN_NAME}{.a}!"}
+{"id": "ksr1bSTC", "uk": "{PARTY} штурмує {SETTLEMENT}{.a}."}
+{"id": "MoYYusXJ", "uk": "{INSULTER.LINK} {?INSULTER.GENDER}заявила{?}заявив{\\?}, що {INSULTEE.LINK} не {?INSULTEE.GENDER}виконала{?}виконав{\\?} наказів і через це військо зазнало невдачі в бою."}
+{"id": "nbVW2cJ8", "uk": "Армія під проводом {LORD.LINK}{.g} з {FACTION_NAME}{.g} грабує {SETTLEMENT}{.a}"}
+{"id": "nPF738Cb", "uk": "{INSULTER.LINK} {?INSULTER.GENDER}звинуватила{?}звинуватив{\\?} {INSULTEE.LINK}{.a} в підбурюванні народу."}
+{"id": "orDGbYZE", "uk": "{INSULTER.LINK} і {INSULTEE.LINK} посварилися."}
+{"id": "P9RGAGFC", "uk": "{MOTHER.LINK} померла під час пологів."}
+{"id": "pBMMXwVa", "uk": "{INSULTER.LINK} стверджує, що {INSULTEE.LINK} намагається обманом загарбати землю."}
+{"id": "pHyqL3bw", "uk": "{HERO.LINK} {?HERO.GENDER}народилася{?}народився{\\?} в родині {MOTHER.LINK}{.g} і {FATHER.LINK}{.g}."}
+{"id": "PLiydbpQ", "uk": "{PARTY} поча{past(PARTY)} грабувати {SETTLEMENT}{.a}."}
+{"id": "PsU1ri42", "uk": "{PARTY1} би{past(PARTY1)}ся з {PARTY2}{.i}."}
+{"id": "RpVrqXOU", "uk": "{INSULTER.LINK} і {INSULTEE.LINK} посварилися через феод."}
+{"id": "S0oFKYfB", "uk": "Клан {CLAN} більше не служить {KINGDOM}{.d}."}
+{"id": "SLAkSrb5", "uk": "{FACTION1_NAME} оголошує війну {FACTION2_NAME}{.d}."}
+{"id": "TsYCa2fZ", "uk": "{FACTION1} і {FACTION2} уклали мир."}
+{"id": "WiiRaLyK", "uk": "{INSULTER.LINK} {?INSULTER.GENDER}заявила{?}заявив{\\?}, що через необачність {INSULTEE.LINK}{.g} військо зазнало невдачі в бою."}
+{"id": "WYHqMwwo", "uk": "{CLAN}{.a} знищено."}
+{"id": "XRTcnnR2", "uk": "{HERO.LINK} переховується."}
+{"id": "yUaE3eeX", "uk": "{SETTLEMENT}{.a} очищено."}
+{"id": "ZQ0bn7l7", "uk": "{HERO_1} несе відповідальність за смерть {HERO_2}{.g}"}

@@ -1,0 +1,60 @@
+{"id": "18NtjryL", "uk": "Ще ні, але незабаром."}
+{"id": "1ELK1UbN", "uk": "{HERO.NAME} зараз у морі."}
+{"id": "6P1ruzsC", "uk": "Можливо..."}
+{"id": "6QoSHiWC", "uk": "Провулок без ватажка"}
+{"id": "9ACJsI6S", "uk": "Заблоковано"}
+{"id": "9NuttOBC", "uk": "Завантажити"}
+{"id": "9y0zpKUF", "uk": "Ви маєте володіти цим поселенням!"}
+{"id": "akHsjtPh", "uk": "Ви ще не зустрічалися із цим героєм."}
+{"id": "aN85Kfnq", "uk": "{SETTLEMENT}{.a} пограбовано. Вашу угоду з {QUEST_GIVER.LINK}{.i} скасовано."}
+{"id": "averageWealthStatus", "uk": "Середній"}
+{"id": "awjomtnJ", "uk": "Ви впевнені?"}
+{"id": "bGyrPe8c", "uk": "Виробництво"}
+{"id": "bqeWVVEE", "uk": "Через ваші дії почалася війна з фракцією {QUEST_GIVER.LINK}{.g}. {?QUEST_GIVER.GENDER}Вона{?}Він{\\?} скасовує вашу угоду, і завдання провалено."}
+{"id": "bSo9hKwr", "uk": "{PERSUASION_OPTION_LINE} {SUCCESS_CHANCE}"}
+{"id": "cc1d7mkq", "uk": "Ранг"}
+{"id": "CDXUehf0", "uk": "Добре, добре."}
+{"id": "CH7b5LaX", "uk": "Я {?SPEAKER.GENDER}передумала{?}передумав{\\?}."}
+{"id": "cKz1cyuM", "uk": "Ваш клан тепер воює з {QUEST_GIVER_SETTLEMENT_FACTION}{.i}. Завдання скасовано."}
+{"id": "D0xDRqvm", "uk": "{PERSUASION_REACTION}"}
+{"id": "ddEu5IFQ", "uk": "Сподіваюся."}
+{"id": "dQBArrqh", "uk": "Керувати провулком"}
+{"id": "ds294zxi", "uk": "Ще щось?"}
+{"id": "dzXaXKaC", "uk": "Гаразд."}
+{"id": "FdzsOvDq", "uk": "Ця дія недоступна під час місії"}
+{"id": "g8qb3Ame", "uk": "Дякую."}
+{"id": "GEvP9i5f", "uk": "Ви продовжите гру за {HEIR.NAME}{.a}."}
+{"id": "gJG0xmAq", "uk": "Село {QUEST_SETTLEMENT}, де живе {QUEST_GIVER.LINK}, пограбовано. Вашу угоду з {QUEST_GIVER.LINK}{.i} скасовано."}
+{"id": "hCavIm4G", "uk": "Ви заплатите {AMOUNT}{GOLD_ICON}."}
+{"id": "Hxf6bzmR", "uk": "Денарів у наявності"}
+{"id": "I1CMeL9R", "uk": "Кінні лучники"}
+{"id": "I8raOMRH", "uk": "Перепрошую. Поки що жодних зрушень."}
+{"id": "iW9iKbb8", "uk": "Нічого."}
+{"id": "jcEoUPCB", "uk": "Ви перевдягнені."}
+{"id": "k7ebznzr", "uk": "Так?"}
+{"id": "LZbHWkCB", "uk": "Переговори з {PARTY_NAME}{.i}"}
+{"id": "mapbardenarvalue", "uk": "{DENAR_AMOUNT}{VALUE_ABBREVIATION}"}
+{"id": "maptrack", "uk": "Слід"}
+{"id": "MIylzRc5", "uk": "Ця дія недоступна, поки ви берете участь у події на карті."}
+{"id": "mp68RYnD", "uk": "Ліміт розміру загону"}
+{"id": "nFl0ufe3", "uk": "Загін без командира"}
+{"id": "oJmRg2ms", "uk": "Дуже багатий"}
+{"id": "OlOhuO7X", "uk": "Ні, дякую. Гарного вам дня."}
+{"id": "pdqi2qz1", "uk": "Ця дія недоступна, поки на ваш провулок нападають."}
+{"id": "poorWealthStatus", "uk": "Бідний"}
+{"id": "ppi6eVos", "uk": "Як забажаєте."}
+{"id": "PXT6aA4J", "uk": "Налаштування кампанії"}
+{"id": "qGIFpahv", "uk": "Не маю для тебе ані монетки. Вибач. Хай Небо подасть."}
+{"id": "rkQ7D36f", "uk": "Завдання скасовано, бо у вашому загоні більше соратників, ніж ви можете очолювати."}
+{"id": "RzFyGnWJ", "uk": "Прихильники"}
+{"id": "SixPXaNh", "uk": "Дуже бідний"}
+{"id": "SlubkZ1A", "uk": "Ліквідовано"}
+{"id": "UbRqC0Yz", "uk": "Багатий"}
+{"id": "uYjEknNX", "uk": "{EXECUTER.NAME} страчує {VICTIM.NAME}{.a}"}
+{"id": "uZhHh7pm", "uk": "{CURR_TEMPLATE_NAME} (власної роботи)"}
+{"id": "vaUlAZba", "uk": "Ваш клан тепер воює з {QUEST_GIVER.LINK}{.i}. Вашу угоду з {QUEST_GIVER.LINK}{.i} скасовано."}
+{"id": "vW6kBki9", "uk": "Ваш клан тепер воює з державою {QUEST_GIVER.LINK}{.g}. Вашу угоду з {QUEST_GIVER.LINK}{.i} скасовано."}
+{"id": "wlKtDR2z", "uk": "Дякую, {?PLAYER.GENDER}моя пані{?}пане{\\?}."}
+{"id": "xpCdwmlX", "uk": "У вас недостатньо золота, щоб призначити {HERO.NAME}{.a} командиром загону."}
+{"id": "YuLLsAUb", "uk": "У вас немає {GOLD_AMOUNT}{GOLD_ICON}."}
+{"id": "zpqP5LsC", "uk": "Вирушаю негайно."}

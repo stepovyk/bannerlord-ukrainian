@@ -1,0 +1,58 @@
+name: Збирання
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Перевірка перекладу
+        run: python3 tools/check.py
+
+      - name: Граматичний обробник
+        run: dotnet build src/UkrainianLocalization -c Release
+
+      - name: Мод
+        run: python3 tools/build.py --zip
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: UkrainianLocalization
+          path: dist/*.zip
+
+      - name: Випуск
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          zip="dist/UkrainianLocalization-${TAG}.zip"
+          if [ ! -f "$zip" ]; then
+            echo "Тег $TAG не збігається з MOD_VERSION у tools/build.py"
+            exit 1
+          fi
+          awk -v tag="## $TAG" '$0 == tag {on=1; next} /^## / {on=0} on' CHANGELOG.md > notes.md
+          if [ ! -s notes.md ]; then
+            echo "У CHANGELOG.md немає розділу $TAG"
+            exit 1
+          fi
+          printf '\n[Як установити](https://github.com/%s#встановлення)\n' "$GITHUB_REPOSITORY" >> notes.md
+          gh release create "$TAG" "$zip" --title "Українська локалізація $TAG" --notes-file notes.md
