@@ -551,6 +551,35 @@ namespace UkrainianLocalization
                     sb.Insert(w.Start, declined);
                 }
             }
+            AdjustPreposition(sb, groupStart);
+        }
+
+        /// <summary>
+        /// Euphony of the preposition written in the template right before an inserted name, which the template cannot
+        /// know: «в Вландії» → «у Вландії», «з Сарготу» → «із Сарготу».
+        /// </summary>
+        private static void AdjustPreposition(StringBuilder sb, int start)
+        {
+            int p = start;
+            while (p < sb.Length && !char.IsLetter(sb[p]))
+            {
+                p++;
+            }
+            if (p >= sb.Length || p < 2 || sb[p - 1] != ' ' || (p >= 3 && char.IsLetter(sb[p - 3])))
+            {
+                return;
+            }
+            char prep = sb[p - 2];
+            char first = char.ToLowerInvariant(sb[p]);
+            if ((prep == 'в' || prep == 'В') && (first == 'в' || first == 'ф'))
+            {
+                sb[p - 2] = prep == 'в' ? 'у' : 'У';
+            }
+            else if ((prep == 'з' || prep == 'З') && "зсшщжчц".IndexOf(first) >= 0)
+            {
+                sb[p - 2] = 'з';
+                sb.Insert(p - 2, prep == 'з' ? 'і' : 'І');
+            }
         }
 
         /// <summary>
