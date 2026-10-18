@@ -55,4 +55,8 @@ jobs:
             exit 1
           fi
           printf '\n[Як установити](https://github.com/%s#встановлення)\n' "$GITHUB_REPOSITORY" >> notes.md
-          gh release create "$TAG" "$zip" --title "Українська локалізація $TAG" --notes-file notes.md
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$zip" --clobber
+          else
+            gh release create "$TAG" "$zip" --title "Українська локалізація $TAG" --notes-file notes.md
+          fi
