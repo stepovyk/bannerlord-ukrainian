@@ -28,7 +28,7 @@ DEFAULT_DLL = os.path.join(ROOT, 'src', 'UkrainianLocalization', 'bin', 'Release
 
 LANG_ID = 'Українська'
 GAME_VERSION = 'v1.4.8'
-MOD_VERSION = 'v1.1.0'
+MOD_VERSION = 'v1.1.1'
 PROCESSOR = ('UkrainianLocalization.UkrainianTextProcessor, UkrainianLocalization, Version=1.0.0.0, '
              'Culture=neutral, PublicKeyToken=null')
 
