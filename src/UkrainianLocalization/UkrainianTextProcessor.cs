@@ -565,12 +565,18 @@ namespace UkrainianLocalization
             {
                 p++;
             }
-            if (p >= sb.Length || p < 2 || sb[p - 1] != ' ' || (p >= 3 && char.IsLetter(sb[p - 3])))
+            if (p >= sb.Length)
+            {
+                return;
+            }
+            char first = char.ToLowerInvariant(sb[p]);
+            // a name inserted as a link starts after its markup («<a …><b>Алея») — the preposition stands before the tags
+            p = SkipTagsBack(sb, p);
+            if (p < 2 || sb[p - 1] != ' ' || (p >= 3 && char.IsLetter(sb[p - 3])))
             {
                 return;
             }
             char prep = sb[p - 2];
-            char first = char.ToLowerInvariant(sb[p]);
             if ((prep == 'в' || prep == 'В') && (first == 'в' || first == 'ф'))
             {
                 sb[p - 2] = prep == 'в' ? 'у' : 'У';
@@ -580,6 +586,39 @@ namespace UkrainianLocalization
                 sb[p - 2] = 'з';
                 sb.Insert(p - 2, prep == 'з' ? 'і' : 'І');
             }
+            else if (prep == 'і' && p >= 4 && sb[p - 3] == ' ' && IsVowel(first))
+            {
+                int before = SkipTagsBack(sb, p - 3);
+                if (before > 0 && IsVowel(sb[before - 1]))
+                {
+                    // «Фасоса і Алею» → «Фасоса й Алею»: між голосними — «й»
+                    sb[p - 2] = 'й';
+                }
+            }
+        }
+
+        private static bool IsVowel(char c)
+        {
+            return "аеєиіїоуюяАЕЄИІЇОУЮЯ".IndexOf(c) >= 0;
+        }
+
+        /// <summary>Moves back over markup tags (e.g. «&lt;a …&gt;&lt;b&gt;») that end right before <paramref name="pos"/>.</summary>
+        private static int SkipTagsBack(StringBuilder sb, int pos)
+        {
+            while (pos > 0 && sb[pos - 1] == '>')
+            {
+                int open = pos - 2;
+                while (open >= 0 && sb[open] != '<' && sb[open] != '>')
+                {
+                    open--;
+                }
+                if (open < 0 || sb[open] != '<')
+                {
+                    break;
+                }
+                pos = open;
+            }
+            return pos;
         }
 
         /// <summary>

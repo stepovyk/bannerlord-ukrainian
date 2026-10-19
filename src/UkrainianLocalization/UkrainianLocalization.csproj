@@ -5,9 +5,9 @@
     <RootNamespace>UkrainianLocalization</RootNamespace>
     <LangVersion>9.0</LangVersion>
     <Nullable>disable</Nullable>
-    <Version>1.0.0.0</Version>
+    <Version>1.1.0</Version>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <FileVersion>1.1.0.0</FileVersion>
     <Authors>Stepovyk</Authors>
     <Product>Українська локалізація Mount &amp; Blade II: Bannerlord</Product>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
@@ -19,6 +19,7 @@
   <ItemGroup>
     <!-- Еталонні збірки гри v1.4.8: збирати можна без установленої гри; до мода вони не потрапляють. -->
     <PackageReference Include="Bannerlord.ReferenceAssemblies.Core" Version="1.4.8.119303" PrivateAssets="all" IncludeAssets="compile" />
+    <PackageReference Include="Bannerlord.ReferenceAssemblies.Native" Version="1.4.8.119303" PrivateAssets="all" IncludeAssets="compile" />
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
   </ItemGroup>
   <ItemGroup>
