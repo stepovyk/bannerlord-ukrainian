@@ -1,10 +1,10 @@
-<p align="center"><img src="assets/banner.png" alt="Mount &amp; Blade II: Bannerlord — Українська локалізація" width="100%"></p>
+<p align="center"><img src="assets/banner.png" alt="Mount &amp; Blade II: Bannerlord – Українська локалізація" width="100%"></p>
 
 # Українська локалізація Mount & Blade II: Bannerlord
 
 Повний український переклад гри Mount & Blade II: Bannerlord: кампанія, сюжет, діалоги, енциклопедія, інтерфейс, мережева гра й власні битви.
 
-**Версія гри:** v1.4.8 · **Версія мода:** v1.1.1 · **Автор:** Stepovyk
+**Версія гри:** v1.4.8 · **Версія мода:** v1.2.0 · **Автор:** Stepovyk
 
 [English below](#english)
 
@@ -27,7 +27,7 @@
 
 ## Встановлення
 
-1. Завантажте архів `UkrainianLocalization-v1.1.1.zip` з [Releases](../../releases/latest) або з [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/14111).
+1. Завантажте архів `UkrainianLocalization-v1.2.0.zip` з [Releases](../../releases/latest) або з [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/14111).
 2. Розпакуйте його в теку гри, наприклад `C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\`. Теки з архіву мають опинитися в `Modules`.
    Через Vortex: «Install from file» і виберіть архів.
 3. У лаунчері відкрийте «Singleplayer» → «Mods» і ввімкніть **«Українська локалізація»**. Для мережевої гри так само ввімкніть **«Українська локалізація (мережева гра)»** на вкладці «Multiplayer».
@@ -62,9 +62,9 @@
 
 ## Як долучитися
 
-Переклад зберігається в `translation/<модуль>/<файл>.jsonl`, як і в грі. Кожен рядок файлу — JSON-об’єкт `{"id": "…", "uk": "…"}`:
-- `id` — ідентифікатор рядка гри;
-- `uk` — український текст із розміткою гри.
+Переклад зберігається в `translation/<модуль>/<файл>.jsonl`, як і в грі. Кожен рядок файлу – JSON-об’єкт `{"id": "…", "uk": "…"}`:
+- `id` – ідентифікатор рядка гри;
+- `uk` – український текст із розміткою гри.
 
 Перед правками прочитайте:
 - [посібник перекладача](docs/STYLE.md): стиль, розмітка, відмінки, рід, числа;
@@ -91,7 +91,7 @@ python3 tools/build.py --zip                        # зібрати мод у d
 
 ## Ліцензія
 
-Власна робота проєкту (переклад, граматичний обробник, інструменти) поширюється за ліцензією MIT: її можна вільно використовувати й змінювати, зберігаючи згадку про авторство. Mount & Blade II: Bannerlord, її оригінальні тексти й торгові марки належать TaleWorlds Entertainment. Проєкт неофіційний і не пов’язаний із TaleWorlds. Докладніше — у [LICENSE](LICENSE).
+Власна робота проєкту (переклад, граматичний обробник, інструменти) поширюється за ліцензією MIT: її можна вільно використовувати й змінювати, зберігаючи згадку про авторство. Mount & Blade II: Bannerlord, її оригінальні тексти й торгові марки належать TaleWorlds Entertainment. Проєкт неофіційний і не пов’язаний із TaleWorlds. Докладніше – у [LICENSE](LICENSE).
 
 ---
 

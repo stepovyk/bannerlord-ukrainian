@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Збирає мод «Українська локалізація» з перекладу в translation/.
 
-Результат — dist/Modules/UkrainianLocalization (одиночна гра) і dist/Modules/UkrainianLocalizationMP (мережева гра),
+Результат – dist/Modules/UkrainianLocalization (одиночна гра) і dist/Modules/UkrainianLocalizationMP (мережева гра),
 а з ключем --zip ще й архів dist/UkrainianLocalization-<версія>.zip, у корені якого тека Modules.
 
 Використання:
@@ -28,7 +28,7 @@ DEFAULT_DLL = os.path.join(ROOT, 'src', 'UkrainianLocalization', 'bin', 'Release
 
 LANG_ID = 'Українська'
 GAME_VERSION = 'v1.4.8'
-MOD_VERSION = 'v1.1.1'
+MOD_VERSION = 'v1.2.0'
 PROCESSOR = ('UkrainianLocalization.UkrainianTextProcessor, UkrainianLocalization, Version=1.0.0.0, '
              'Culture=neutral, PublicKeyToken=null')
 
@@ -49,7 +49,7 @@ FUNCTIONS = OrderedDict([
 
 def gender_switch(m, f, n, p):
     # Персонажі (SetCharacterProperties) мають GENDER; імена з NameGenerator («{FIRSTNAME} Скеля» тощо) мають FIRSTNAME
-    # і FEMALE, тож їхній рід — FEMALE, а не маркер прізвиська. GENDER перевіряється першим: персонаж має FIRSTNAME,
+    # і FEMALE, тож їхній рід – FEMALE, а не маркер прізвиська. GENDER перевіряється першим: персонаж має FIRSTNAME,
     # але не має FEMALE, і звернення до відсутнього FEMALE там спричиняє виняток. Решту назв (лорди, поселення,
     # фракції) розрізняє маркер роду.
     markers = ('{?$0!.FI}' + f + '{:?$0!.FA}' + f + '{:?$0!.NI}' + n + '{:?$0!.NA}' + n +
@@ -182,7 +182,7 @@ def build(dll):
     ld += ['</LanguageData>', '']
     write(os.path.join(OUT, 'ModuleData', 'Languages', 'UK', 'language_data.xml'), '\n'.join(ld))
 
-    # Galahad (декоративний шрифт гри) не має літер і, ї, й — замінюється на Fira Sans, як і для кирилиці в грі.
+    # Galahad (декоративний шрифт гри) не має літер і, ї, й – замінюється на Fira Sans, як і для кирилиці в грі.
     fonts = f'''<?xml version="1.0" encoding="utf-8"?>
 <Languages>
   <Language id="{LANG_ID}" DefaultFont="FiraSansExtraCondensed-Regular" LineSeperatorChar="-">

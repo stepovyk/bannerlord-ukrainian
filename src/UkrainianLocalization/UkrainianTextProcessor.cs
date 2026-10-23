@@ -323,7 +323,7 @@ namespace UkrainianLocalization
                 return false;
             }
             string gap = sb.ToString(from, to - from).Trim();
-            return gap.Length == 0 || gap == "і" || gap == "й" || gap == "та" || gap == "/" || gap == "—" || gap == "-" || gap == ",";
+            return gap.Length == 0 || gap == "і" || gap == "й" || gap == "та" || gap == "/" || gap == "–" || gap == "—" || gap == "-" || gap == ",";
         }
 
         private static void OnWord(CallState state, bool adjective)
@@ -570,7 +570,7 @@ namespace UkrainianLocalization
                 return;
             }
             char first = char.ToLowerInvariant(sb[p]);
-            // a name inserted as a link starts after its markup («<a …><b>Алея») — the preposition stands before the tags
+            // a name inserted as a link starts after its markup («<a …><b>Алея») – the preposition stands before the tags
             p = SkipTagsBack(sb, p);
             if (p < 2 || sb[p - 1] != ' ' || (p >= 3 && char.IsLetter(sb[p - 3])))
             {
@@ -591,7 +591,7 @@ namespace UkrainianLocalization
                 int before = SkipTagsBack(sb, p - 3);
                 if (before > 0 && IsVowel(sb[before - 1]))
                 {
-                    // «Фасоса і Алею» → «Фасоса й Алею»: між голосними — «й»
+                    // «Фасоса і Алею» → «Фасоса й Алею»: між голосними – «й»
                     sb[p - 2] = 'й';
                 }
             }

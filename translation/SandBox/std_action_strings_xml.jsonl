@@ -25,8 +25,8 @@
 {"id": "ExbVzTZA", "uk": "{CLAN} найня{past(CLAN)}ся воювати на боці {KINGDOM}{.g}."}
 {"id": "F3MPgmhR", "uk": "{CLAIMANT.LINK} заявляє, що {SETTLEMENT_NAME} має належати {CLAIMANT_CLAN}{.d}, а не {CURRENT_OWNER_CLAN}{.d}."}
 {"id": "FZdiWaBs", "uk": "Спільну територію {HERO}{.g} захоплено."}
-{"id": "h5rkbVu3", "uk": "Новий власник {SETTLEMENT}{.g} — {LORD.LINK}."}
-{"id": "h78oPYTs", "uk": "{INSULTER.LINK} стверджує, що {INSULTEE.LINK} — {?INSULTEE.GENDER}єретичка{?}єретик{\\?}."}
+{"id": "h5rkbVu3", "uk": "Новий власник {SETTLEMENT}{.g} – {LORD.LINK}."}
+{"id": "h78oPYTs", "uk": "{INSULTER.LINK} стверджує, що {INSULTEE.LINK} – {?INSULTEE.GENDER}єретичка{?}єретик{\\?}."}
 {"id": "hbWhfoWH", "uk": "{LORD.LINK} з {FACTION_NAME}{.g} грабує {SETTLEMENT}{.a}"}
 {"id": "hJFCi1zu", "uk": "{FACTION1} і {FACTION2} уклали мир."}
 {"id": "hopvV6Ch", "uk": "{RULER_NAME} з {FACTION1_NAME}{.g} оголошує війну {FACTION2_NAME}{.d}."}
