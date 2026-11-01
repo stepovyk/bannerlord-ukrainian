@@ -6,6 +6,8 @@
 
 **Версія гри:** v1.4.8 · **Версія мода:** v1.2.0 · **Автор:** Stepovyk
 
+Усі мої переклади: [stepovyk.github.io](https://stepovyk.github.io) · новини: [Telegram](https://t.me/stepovyk_ua)
+
 [English below](#english)
 
 ## Що всередині
@@ -26,6 +28,8 @@
 </p>
 
 ## Встановлення
+
+**Steam:** підпишіться на мод у [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3823641704), гра завантажить його сама. Далі – кроки 3 і 4.
 
 1. Завантажте архів `UkrainianLocalization-v1.2.0.zip` з [Releases](../../releases/latest) або з [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/14111).
 2. Розпакуйте його в теку гри, наприклад `C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\`. Теки з архіву мають опинитися в `Modules`.
@@ -52,6 +56,8 @@
 - [банкою Monobank](https://send.monobank.ua/jar/8aeC9dGFrn);
 - [конвертом Приват24](https://www.privat24.ua/send/kkyqm);
 - поставивши моду «Endorse» на [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/14111).
+
+Далі в роботі – повний український дубляж Bannerlord. Новини й нові переклади – у [Telegram](https://t.me/stepovyk_ua).
 
 ## Помилки й побажання
 
@@ -103,12 +109,14 @@ The mod ships its own Ukrainian grammar processor. It declines names by case (to
 
 **Game version:** v1.4.8. The War Sails DLC is not translated yet.
 
-**Install:**
+**Install:** subscribe on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3823641704), or:
 1. Extract the release archive into the game folder so that its folders land in `Modules`. With Vortex, use "Install from file".
 2. Enable **«Українська локалізація»** in the launcher (Singleplayer → Mods). For multiplayer, also enable the separate module on the Multiplayer tab.
 3. Select **«Українська»** in Options → Gameplay → Language.
 
 **Build from source:** `dotnet build src/UkrainianLocalization -c Release && python3 tools/build.py --zip`. This needs .NET SDK 8 and Python 3.9+. The game reference assemblies come from NuGet, so the game does not need to be installed.
+
+More Ukrainian translations: [stepovyk.github.io](https://stepovyk.github.io) · [Telegram](https://t.me/stepovyk_ua)
 
 Support the author: [Monobank jar](https://send.monobank.ua/jar/8aeC9dGFrn) · [Privat24 envelope](https://www.privat24.ua/send/kkyqm).
 
