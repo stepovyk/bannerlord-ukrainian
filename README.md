@@ -29,8 +29,6 @@
 
 ## Встановлення
 
-**Steam:** підпишіться на мод у [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3823641704), гра завантажить його сама. Далі – кроки 3 і 4.
-
 1. Завантажте архів `UkrainianLocalization-v1.2.0.zip` з [Releases](../../releases/latest) або з [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/14111).
 2. Розпакуйте його в теку гри, наприклад `C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\`. Теки з архіву мають опинитися в `Modules`.
    Через Vortex: «Install from file» і виберіть архів.
@@ -109,7 +107,7 @@ The mod ships its own Ukrainian grammar processor. It declines names by case (to
 
 **Game version:** v1.4.8. The War Sails DLC is not translated yet.
 
-**Install:** subscribe on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3823641704), or:
+**Install:**
 1. Extract the release archive into the game folder so that its folders land in `Modules`. With Vortex, use "Install from file".
 2. Enable **«Українська локалізація»** in the launcher (Singleplayer → Mods). For multiplayer, also enable the separate module on the Multiplayer tab.
 3. Select **«Українська»** in Options → Gameplay → Language.
