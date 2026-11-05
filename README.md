@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.png" alt="Mount &amp; Blade II: Bannerlord – Українська локалізація" width="100%"></p>
+<p align="center"><img src="assets/cover.jpg" alt="Mount &amp; Blade II: Bannerlord українською" width="100%"></p>
 
 # Українська локалізація Mount & Blade II: Bannerlord
 
